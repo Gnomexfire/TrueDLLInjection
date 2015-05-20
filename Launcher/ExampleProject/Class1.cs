@@ -8,7 +8,7 @@ namespace ExampleProject
         public static int EntryPoint(string args)
         {
             var proc = Process.GetCurrentProcess().ProcessName;
-            MessageBox.Show(@"Process is : " + proc);
+            MessageBox.Show(@"Process  is : " + proc);
             if (args != null)
             {
                 MessageBox.Show(args);
